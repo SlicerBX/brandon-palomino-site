@@ -11,10 +11,11 @@ function CardItem(props) {
                       className="cards__item__img"/>
                   </figure>
                   <div className="cards__item__info">
-                      <h5 className="cards__item__text">{props.text}</h5>
+                      <h4 className="cards__item__text">{props.text}</h4>
+                      <h5 className="cards__item__desc">Desc.</h5>
                   </div>
               </Link>
-          </li> 
+          </li>
         </>
     )
 }

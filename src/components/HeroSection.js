@@ -1,5 +1,5 @@
 import React from 'react';
-import Particles, {canvas,repulse,grab,push} from 'react-particles-js';
+import Particles, {canvas,grab,push} from 'react-particles-js'; //repulse import maybe
 import '../App.css';
 import { Button } from './Button';
 import '../HeroSection.css';

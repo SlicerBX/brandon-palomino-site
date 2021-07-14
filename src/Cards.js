@@ -11,7 +11,7 @@ function Cards() {
                     <ul className="cards__items">
                         <CardItem
                             src="images/slime.png"
-                            text="Defeat the evil slimes to save the world!"
+                            text="Slime Slayer"
                             label="Unity/C#"
                             path='/projects'
                         />

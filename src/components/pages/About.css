@@ -1,0 +1,46 @@
+.profile_pic {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    width: 25%;
+    max-width: 50%;
+    height: 25%;
+    max-height: 50%;
+    border-radius: 100%;
+    object-fit: cover;
+    transition: all 0.2s linear;
+}
+
+.iconLink {
+    color: black;
+    font-size: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.iconLink:hover {
+    color: gray;
+    transition: 250ms;
+}
+
+.aboutme {
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
+    text-align: center;
+    align-self: center;
+}
+
+.line_up {
+    display:flex;
+    position: absolute;
+    justify-content: center;
+}
+
+.p{
+    width: 800px;
+    text-align: center;
+}
